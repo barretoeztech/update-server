@@ -1,0 +1,12 @@
+version: '3'
+services:
+  opkg-server:
+    build: 
+      context: .
+      
+    volumes:
+      - ${PACKAGE_DIR}:/packages
+    ports:
+      - ${PORT}:80
+    restart: always
+    
