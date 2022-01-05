@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# 1. Build package list
+# Build package list
 build_package_list()
 {
 	cd /packages
