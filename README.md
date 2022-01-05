@@ -4,6 +4,8 @@
 
 O servidor foi contruido para examinar a pasta **./Packages** periódicamente com intervalos de 1 minuto e contruir novamente os arquivos de controle **Packages.gz** e **Packages.stamps** dentro da pasta **./Packges** e portanto nao é necessario parar ou reiniciar o servidor para publicar um novo pacote, basta executar novamente **buid-package** conforme abaixo.
 
+*Obs: Para execução do servidor é necessario a pre instalação do Docker, Docker-compose*
+
 ## Construção do pacote de instalação para o MUS
 
 Para entender a contrução do pacote precisamos primeiro explicar a estrutura do diretorio **ipk-build**. Dentro dessa estrutura temos o seguinte: 
@@ -49,7 +51,6 @@ O pacote sera contruido gerando um arquivo com a terminação *.ipk* e copiado n
 
 
 ## Construção do container e execução
-
 
 Para construir o container do servidor de atualização
 execute o comando abaixo no diretorio **update-server**:
