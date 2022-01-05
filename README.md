@@ -1,6 +1,6 @@
 # Servidor privado de atualização EZTECH para o MUS
 
-
+Primeiro clone o projeto em um diretorio qualquer. E siga os proximos passos.
 
 O servidor foi contruido para examinar a pasta **./Packages** periódicamente com intervalos de 1 minuto e contruir novamente os arquivos de controle **Packages.gz** e **Packages.stamps** dentro da pasta **./Packges** e portanto nao é necessario parar ou reiniciar o servidor para publicar um novo pacote, basta executar novamente **buid-package** conforme abaixo.
 
