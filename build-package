@@ -3,6 +3,9 @@
 echo Building Package
 ./bin/opkg-build -c -o root -g root ipk-build
 
+echo Cleaning Packages folder
+rm Packages/*
+
 echo Coping file to ./Packages folder
 cp *.ipk Packages
 rm *.ipk
