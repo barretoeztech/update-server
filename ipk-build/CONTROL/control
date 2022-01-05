@@ -1,4 +1,4 @@
-Package: mus_gilbarco
+Package: musgilbarco
 Version: 1.23
 Architecture: mipsel_24kc
 Maintainer: Kelvin Ussher <krusher@eztech.ind.br>
