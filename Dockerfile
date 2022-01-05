@@ -12,7 +12,7 @@ COPY bin/ /usr/bin/.
 #    -c advice.detachedHead=false && \
 #    rm -rf opkg-utils/tests && \
 #    cp /opkg-utils/* /usr/bin/ && \
-#    chmod -R 755 /usr/bin
+RUN  chmod -R 755 /usr/bin
 
 WORKDIR /opkg
 EXPOSE 80
