@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo Building Package
+./bin/opkg-build -c -o root -g root ipk-build
+
+echo Coping file to ./Packages folder
+cp *.ipk Packages
+rm *.ipk
+

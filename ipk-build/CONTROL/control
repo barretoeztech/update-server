@@ -1,0 +1,7 @@
+Package: mus_gilbarco
+Version: 1.23
+Architecture: mipsel_24kc
+Maintainer: Kelvin Ussher <krusher@eztech.ind.br>
+Description: This is MUS Package for Gilgarco
+Priority: optional
+Depends: curl

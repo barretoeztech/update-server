@@ -1,0 +1,6 @@
+#!/bin/sh
+# Esse arquivo deve conter o script que sera executado 
+# antes da remoção do pacote
+
+echo "in prerm"
+exit 0
