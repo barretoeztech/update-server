@@ -2,5 +2,5 @@
 # Esse arquivo deve conter o script que sera executado 
 # antes da instalação do pacote
 
-echo "in preinst"
+echo "Installing the package"
 exit 0

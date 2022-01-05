@@ -2,5 +2,5 @@
 # Esse arquivo deve conter o script que sera executado 
 # após a remoção do pacote
 
-echo "in postrm"
+echo "Package removed"
 exit 0

@@ -2,5 +2,5 @@
 # Esse arquivo deve conter o script que sera executado 
 # após a instalação do pacote
 
-echo "in postinst"
+echo "Package installed"
 exit 0
