@@ -10,7 +10,7 @@ O servidor foi contruido para examinar a pasta **./Packages** periódicamente co
 
 Para entender a contrução do pacote precisamos primeiro explicar a estrutura do diretorio **ipk-build**. Dentro dessa estrutura temos o seguinte: 
 
-~~~
+```
 ipk-build/
 ├── CONTROL
 │   ├── control
@@ -21,7 +21,7 @@ ipk-build/
 └── usr
     └── bin
         └── teste
-~~~
+```
 
 O arquivo **control** deve ser editado antes de construir o pacote, contem informações para o utilitario de intalação OPKG que sera utilizado para atualizar o MUS, abaixo segue um exemplo.
 
